@@ -3,19 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/image/favicon2.png">
+    <script src="script.js" defer></script>
     <title>Coder Castell</title>
 </head>
 <body>
     <header>
-        <h1>Lets build tommorow</h1>
-        
+        <h1>Coder Castell</h1>
+        <p>Code. Collaborate. Elevate.</p>
     </header>
 
-    
+    <section>
+        <p>Welcome to the Coder Castell community, This is a community which provides free hands-on training in various fields of computer science and have an inclusive community focusing on a learn by doing approach.</p>
+        <!-- You can add more content or sections here -->
+
+        <!-- Waitlist Form -->
+        <form action="#" method="post" id="waitlistForm" onsubmit="joinWaitlist(); return false;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Join Waitlist</button>
+        </form>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Multiverse System Store. All rights reserved.</p>
+        <p>&copy; 2024 Coder Castell. All rights reserved.</p>
     </footer>
 </body>
 </html>
